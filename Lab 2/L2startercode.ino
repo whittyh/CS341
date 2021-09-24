@@ -70,8 +70,18 @@ void setup() {
 		displayRAM((char *) 0x100, (char *) 0x200, false);
 		//displays memory in 0x100 blocks with 2 second delays 
 		displayAllRAM(2000, false); 
-	*/
-
+  */
+	
+	
+  //Part 4(OPTIONAL): What endian?
+  /*
+    unsigned long a = 0x12345678;
+    unsigned long e = (unsigned long)&a;
+    Serial.print("Long location in RAM Stack :");
+    Serial.println(e, HEX);
+    displayRAM( (char *)(e - 15), (char *)(e + 15),  true);
+    displayRAM( (char *)(e - 15), (char *)(e + 15),  false);
+  */
 }
 
 
