@@ -15,3 +15,4 @@ Policies can be found in the powerpoint for Lab 1.
   #updates your local code with any changes I have made here (must be inside cs341 directory)
   git pull origin
 ```
+[Submission and Grades poll](https://forms.gle/RK95C3vfqm1y7QVP6)
