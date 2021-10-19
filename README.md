@@ -2,7 +2,7 @@
 Here you'll find all the starter codes for CS341 lab. Instructions for the lab are also posted on <a href="https://www.cs.umb.edu/~cheungr/cs341/"> Professor Cheung's Website </a>.
 
 <a href="https://www.tinkercad.com"> TinkerCad </a> for reference/ experimenting.
-
+<a href="https://github.com/iamthechad/parallax_lcd"> Parallax LCD 
 ### using git
 ```bash
   #downloads current version
