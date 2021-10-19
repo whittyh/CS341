@@ -1,12 +1,14 @@
 # CS341 Lab
 Here you'll find all the starter codes for CS341 lab. Instructions for the lab are also posted on <a href="https://www.cs.umb.edu/~cheungr/cs341/"> Professor Cheung's Website </a>.
 
-<a href="https://www.tinkercad.com"> TinkerCad </a> for reference/ experimenting.
+<a href="https://www.tinkercad.com"> TinkerCad </a> for reference/ experimenting.</a>
+
 <a href="https://github.com/iamthechad/parallax_lcd"> Parallax LCD </a>
+<a href="https://www.cs.umb.edu/cs341/Lab05/index.html"> Parallax LCD </a>
 ### using git
 ```bash
   #downloads current version
-  git clone https://github.com/jack17davis/cs341.git 
+  git clone https://github.com/whittyh/cs341.git 
   
   #compares your local version with the code here (must be inside cs341 directory)
   git status
