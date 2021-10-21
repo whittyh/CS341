@@ -42,12 +42,14 @@ void loop() {
   serial_display.write(0x9b);  // set cursor to line 1 pos 7
   serial_display.write(itoa(time, timeblock, 10)); // convert time to ascii for print
   
- // implement a circular buffer in the for loop
+ // implement a circular buffer in the for loop:
+ // populate p[] with 16 chars of the string 
+ // use position to track where in the string you are
     for (j=0; j < DISPLAY_LEN; j++)
     {
       data[j] = p[j];
     }
-  
+    position =(position +1)% string_length;
   // set the cursor to column 0, line 1
   // (note: line 1 is the second row, since counting begins with 0):
     serial_display.write(0x80);  //set cursor to line 0 position 0
@@ -55,5 +57,4 @@ void loop() {
      
     delay(400);
     //serial_display.write(0x0c);  
-    position =(position +1)% DISPLAY_LEN;
 }
