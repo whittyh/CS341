@@ -49,12 +49,11 @@ void loop() {
     {
       data[j] = p[j];
     }
+  // update position:
     position =(position +1)% string_length;
-  // set the cursor to column 0, line 1
-  // (note: line 1 is the second row, since counting begins with 0):
-    serial_display.write(0x80);  //set cursor to line 0 position 0
-    serial_display.write(data);  //output data
-     
+    serial_display.write(0x80);  // set cursor to line 0 position 0
+  // (note: line 1 is the second row, since counting begins with 0):                             //
+    serial_display.write(data);  // output data
     delay(400);
-    //serial_display.write(0x0c);  
+  //serial_display.write(0x0c);  
 }
