@@ -4,7 +4,7 @@ Here you'll find all the starter codes for CS341 lab. Instructions for the lab a
 <a href="https://www.tinkercad.com"> TinkerCad </a> for reference/ experimenting.</a>
 
 <a href="https://github.com/iamthechad/parallax_lcd"> Parallax LCD </a>
-<a href="https://www.cs.umb.edu/cs341/Lab05/index.html"> Parallax LCD </a>
+
 ### using git
 ```bash
   #downloads current version
